@@ -77,10 +77,6 @@ The emphasis is on:
 │   ├── MediaResolver
 │   └── DateFormatter
 │
-├── Test Doubles
-│   ├── MockHTTPClient
-│   ├── InMemoryAPODCache
-│   └── InMemoryFileSystem
 ```
 
 ---

@@ -1,4 +1,4 @@
-# 🌌 APOD Browser – SwiftUI Architecture-Focused Take-Home Exercise
+# 🌌 APOD Browser SwiftUI Architecture Focused Take Home Exercise
 
 APOD Browser is a SwiftUI application that displays NASA’s Astronomy Picture of the Day (APOD) using the public NASA API.  
 The project prioritises separation of concerns and testability.

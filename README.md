@@ -28,6 +28,22 @@ It demonstrates a layered architecture using protocols async/await networking, a
 
 ---
 
+## Development Environment Note
+
+This project was developed using macOS Ventura with Xcode supporting up to iOS 17 SDK.
+
+My current MacBook does not support the latest Xcode version required for iOS 18 due to hardware and OS limitations. As a result:
+
+The app targets iOS 17
+
+All features are implemented using APIs available in iOS 17
+
+No iOS 18–specific APIs are required for this solution
+
+The architecture and codebase are designed to be forward-compatible, and upgrading to newer SDKs in the future should require minimal changes.
+
+---
+
 ## 🧱 Architecture Overview
 
 This project follows a layered, protocol-driven MVVM style architecture.

@@ -23,10 +23,11 @@ struct ContentView: View {
     var body: some View {
         TabView {
             TodayView(vm: todayVM)
-                .tabItem { Label("Today", systemImage: "sun.max") }
+                .tabItem { Label("Planet", systemImage: "globe") }
 
             BrowseView(vm: browseVM)
                 .tabItem { Label("Browse", systemImage: "calendar") }
+           
         }
         .background(Color(.systemBackground))
     }

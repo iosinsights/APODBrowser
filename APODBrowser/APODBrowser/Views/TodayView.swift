@@ -13,7 +13,7 @@ struct TodayView: View {
     var body: some View {
         NavigationStack {
             APODDetailView(vm: vm)
-                .navigationTitle("Today")
+                .navigationTitle("Planet")
                 .toolbar {
                     Button {
                         Task { await vm.load(date: Date()) }
